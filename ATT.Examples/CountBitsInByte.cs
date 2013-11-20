@@ -19,7 +19,7 @@ namespace ATT.Examples
         private static int CountOnBitsInByteUsingShifting(byte input)
         {
             int count = 0;
-
+             
             for (int index = 0; index < 8; index++)
             {
                 bool isBitOn = ((input >> index) & 1) != 0;
