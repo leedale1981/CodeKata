@@ -39,7 +39,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ATT.Examples.ReverseString</StartupObject>
+    <StartupObject>ATT.Examples.CountBitsInByte</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -54,6 +54,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CountBitsInByte.cs" />
     <Compile Include="EquilibirumArray.cs" />
     <Compile Include="FizzBuzz.cs" />
     <Compile Include="HashtableVsDictionary.cs" />
