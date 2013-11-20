@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="SilverlightRESTModule" Url="Documents" Path="SilverlightRESTModule">
+    <File Url="ATT.SharePoint.Examples.Silverlight.xap" />
+  </Module>
+</Elements>
