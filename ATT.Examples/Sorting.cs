@@ -35,7 +35,7 @@ namespace ATT.Examples
                 Console.Write(item + ", ");
         }
 
-        private static int[] InsertionSort(int[] input)
+        internal static int[] InsertionSort(int[] input)
         {
             for (int index = 1; index < input.Length; index++)
             {
