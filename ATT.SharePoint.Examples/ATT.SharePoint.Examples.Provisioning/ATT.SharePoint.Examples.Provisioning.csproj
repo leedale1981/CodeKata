@@ -53,7 +53,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="WebTemplate\SharePointProjectItem.spdata">
+    <None Include="ATTExampleWebTemplate\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{e2baad48-32a0-419e-9273-213443da17b5}</SharePointProjectItemId>
     </None>
     <None Include="Features\ATT.SharePoint.Examples.Provisioning.WebTemplate\ATT.SharePoint.Examples.Provisioning.WebTemplate.feature">
@@ -69,13 +69,13 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="WebTemplate\Elements.xml">
+    <Content Include="ATTExampleWebTemplate\Elements.xml">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Features\ATT.SharePoint.Examples.Provisioning.WebTemplate\ATT.SharePoint.Examples.Provisioning.WebTemplate.Template.xml">
       <DependentUpon>ATT.SharePoint.Examples.Provisioning.WebTemplate.feature</DependentUpon>
     </Content>
-    <Content Include="WebTemplate\onet.xml">
+    <Content Include="ATTExampleWebTemplate\onet.xml">
       <SubType>Designer</SubType>
     </Content>
   </ItemGroup>

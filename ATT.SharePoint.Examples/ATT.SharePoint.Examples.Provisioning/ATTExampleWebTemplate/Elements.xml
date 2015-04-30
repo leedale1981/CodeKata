@@ -3,9 +3,9 @@
   <WebTemplate BaseTemplateID="7"
                BaseTemplateName="BDR"
                BaseConfigurationID="0"
-               DisplayCategory="ATT SharePoint Examples - Provisioning"
-               Name="MyTestWebTemplate"
-               Title="My Test WebTemplate"
+               DisplayCategory="ATT SharePoint Examples"
+               Name="ATTExampleWebTemplate"
+               Title="ATT Example Web Template"
                Locale="1033"
                xmlns="http://schemas.microsoft.com/sharepoint/" />
 </Elements>
