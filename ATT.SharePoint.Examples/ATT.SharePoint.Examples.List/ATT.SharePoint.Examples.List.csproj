@@ -57,9 +57,6 @@
       <FeatureId>{e3db885b-0942-4abf-8688-e5d25eef5c77}</FeatureId>
     </None>
     <None Include="key.snk" />
-    <None Include="Layouts\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{063efab4-67d6-4126-97f7-98bd7b0d9d6f}</SharePointProjectItemId>
-    </None>
     <None Include="Package\Package.package">
       <PackageId>{05a2f70f-1a74-40f5-ae6c-23c5e26c0599}</PackageId>
     </None>
@@ -68,6 +65,9 @@
     </None>
     <None Include="Priority\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{9a7a21e5-2da9-46b6-be42-c338ac9a1666}</SharePointProjectItemId>
+    </None>
+    <None Include="scripts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{60781f17-b627-4d2f-9e1d-bd85877d3bc8}</SharePointProjectItemId>
     </None>
     <None Include="Tasks\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{613da672-1cae-4c6e-913e-de6bf3e0903b}</SharePointProjectItemId>
@@ -82,7 +82,8 @@
       <DependentUpon>ATT.SharePoint.Examples.Lists.feature</DependentUpon>
     </Content>
     <Content Include="Priority\Elements.xml" />
-    <Content Include="Layouts\ATT.SharePoint.Examples.List\att.sharepoint.examples.jslink.js" />
+    <Content Include="scripts\att.sharepoint.examples.jslink.js" />
+    <Content Include="scripts\Elements.xml" />
     <Content Include="Tasks\Elements.xml" />
     <Content Include="Tasks\Schema.xml" />
     <Content Include="Tasks\TasksInstance\Elements.xml" />

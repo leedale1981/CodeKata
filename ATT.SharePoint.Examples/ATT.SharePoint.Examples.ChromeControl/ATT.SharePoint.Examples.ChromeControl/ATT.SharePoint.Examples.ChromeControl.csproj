@@ -107,11 +107,11 @@
     <None Include="Package\Package.Template.xml">
       <DependentUpon>Package.package</DependentUpon>
     </None>
-    <None Include="Features\Feature1\Feature1.feature">
+    <None Include="Features\ATT.SharePoint.Examples.ChromeControl\ATT.SharePoint.Examples.ChromeControl.feature">
       <FeatureId>{883185da-398d-4fd9-901f-32aec5dd2705}</FeatureId>
     </None>
-    <None Include="Features\Feature1\Feature1.Template.xml">
-      <DependentUpon>Feature1.feature</DependentUpon>
+    <None Include="Features\ATT.SharePoint.Examples.ChromeControl\ATT.SharePoint.Examples.ChromeControl.Template.xml">
+      <DependentUpon>ATT.SharePoint.Examples.ChromeControl.feature</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>

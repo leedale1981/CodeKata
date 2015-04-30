@@ -7,7 +7,7 @@
        Type="Choice"
        Required="FALSE"
        Group="Custom Site Columns"
-       JSLink="/_layouts/15/ATT.SharePoint.Examples.List/att.sharepoint.examples.jslink.js">
+       JSLink="~/style library/scripts/att.sharepoint.examples.jslink.js">
     <CHOICES>
       <CHOICE>High</CHOICE>
       <CHOICE>Medium</CHOICE>
