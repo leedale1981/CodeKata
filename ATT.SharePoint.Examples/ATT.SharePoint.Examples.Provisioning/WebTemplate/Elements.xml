@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <WebTemplate BaseTemplateID="7"
+               BaseTemplateName="BDR"
+               BaseConfigurationID="0"
+               DisplayCategory="ATT SharePoint Examples - Provisioning"
+               Name="MyTestWebTemplate"
+               Title="My Test WebTemplate"
+               Locale="1033"
+               xmlns="http://schemas.microsoft.com/sharepoint/" />
+</Elements>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{aef58e04-050e-4eff-8cfe-80772fd563d3}"
+       Name="Genre"
+       DisplayName="Genre"
+       Type="Choice"
+       Required="FALSE"
+       Group="Custom Site Columns">
+    <CHOICES>
+      <CHOICE>Shoot-em-up</CHOICE>
+      <CHOICE>RPG</CHOICE>
+      <CHOICE>Racing</CHOICE>
+      <CHOICE>Sports</CHOICE>
+      <CHOICE>Fighting</CHOICE>
+    </CHOICES>
+  </Field>
+</Elements>
