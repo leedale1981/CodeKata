@@ -18,7 +18,7 @@ attexamples.CustomizeFieldRendering = function ()
 
 attexamples.GetPriorityFieldIcon = function ()
 {
-    var priority = ctx.CurrentItem.Priority;
+    var priority = ctx.CurrentItem.CustomPriority;
 
     // In the following section we simply determine what the rendered html output should be. In my case I'm setting an icon.
 
