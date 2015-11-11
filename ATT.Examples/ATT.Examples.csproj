@@ -55,6 +55,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BinarySearch.cs" />
+    <Compile Include="BubbleSort.cs" />
     <Compile Include="CountBitsInByte.cs" />
     <Compile Include="Enumerators.cs" />
     <Compile Include="EquilibirumArray.cs" />
