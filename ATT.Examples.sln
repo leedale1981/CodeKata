@@ -1,11 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
+<<<<<<< HEAD
 VisualStudioVersion = 14.0.23107.0
+=======
+VisualStudioVersion = 14.0.25123.0
+>>>>>>> 2a493af1e28afea8afe0405ef26baf901330187e
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATT.Examples", "ATT.Examples\ATT.Examples.csproj", "{D8B78CDB-1285-40D8-B8E7-0200607C3B2E}"
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ATT.Examples.FSharp", "ATT.Examples.FSharp\ATT.Examples.FSharp.fsproj", "{C4DE2DF3-4586-4ECC-AC3E-48831E7CB1EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATT.HackerRank", "ATT.HackerRank\ATT.HackerRank\ATT.HackerRank.csproj", "{485C98CB-56E7-4445-B484-3FC2DEED7740}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +43,18 @@ Global
 		{C4DE2DF3-4586-4ECC-AC3E-48831E7CB1EE}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{C4DE2DF3-4586-4ECC-AC3E-48831E7CB1EE}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{C4DE2DF3-4586-4ECC-AC3E-48831E7CB1EE}.Release|x86.ActiveCfg = Release|Any CPU
+		{485C98CB-56E7-4445-B484-3FC2DEED7740}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{485C98CB-56E7-4445-B484-3FC2DEED7740}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{485C98CB-56E7-4445-B484-3FC2DEED7740}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{485C98CB-56E7-4445-B484-3FC2DEED7740}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{485C98CB-56E7-4445-B484-3FC2DEED7740}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{485C98CB-56E7-4445-B484-3FC2DEED7740}.Debug|x86.Build.0 = Debug|Any CPU
+		{485C98CB-56E7-4445-B484-3FC2DEED7740}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{485C98CB-56E7-4445-B484-3FC2DEED7740}.Release|Any CPU.Build.0 = Release|Any CPU
+		{485C98CB-56E7-4445-B484-3FC2DEED7740}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{485C98CB-56E7-4445-B484-3FC2DEED7740}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{485C98CB-56E7-4445-B484-3FC2DEED7740}.Release|x86.ActiveCfg = Release|Any CPU
+		{485C98CB-56E7-4445-B484-3FC2DEED7740}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
