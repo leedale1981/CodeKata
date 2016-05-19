@@ -55,11 +55,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BinarySearch.cs" />
-<<<<<<< HEAD
     <Compile Include="LargestArraySlice.cs" />
-=======
     <Compile Include="BubbleSort.cs" />
->>>>>>> 2a493af1e28afea8afe0405ef26baf901330187e
     <Compile Include="CountBitsInByte.cs" />
     <Compile Include="Enumerators.cs" />
     <Compile Include="EquilibirumArray.cs" />
