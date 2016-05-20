@@ -39,7 +39,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ATT.Examples.Series</StartupObject>
+    <StartupObject>ATT.Examples.CoinTossProbability</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -55,6 +55,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BinarySearch.cs" />
+    <Compile Include="CoinTossProbability.cs" />
     <Compile Include="LargestArraySlice.cs" />
     <Compile Include="BubbleSort.cs" />
     <Compile Include="CountBitsInByte.cs" />

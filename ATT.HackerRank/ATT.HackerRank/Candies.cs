@@ -6,13 +6,13 @@ class Solution
 {
     static void Main(String[] args)
     {
-        int numberChildren = int.Parse(Console.ReadLine());
-        int[] ratings = new int[numberChildren];
+        int numberChildren = 17;// int.Parse(Console.ReadLine());
+        int[] ratings = { 35108, 62711, 60129, 60129, 60129, 85771, 2583, 29356, 71665, 71665, 71665, 10267, 28009, 28009, 76451, 57315, 57315 };// new int[numberChildren]; 
 
-        for (int index = 0; index < numberChildren; index++)
-        {
-            ratings[index] = int.Parse(Console.ReadLine());
-        }
+        //for (int index = 0; index < numberChildren; index++)
+        //{
+        //    ratings[index] = int.Parse(Console.ReadLine());
+        //}
 
         int[] candies = GiveOutCandiesUp(new int[numberChildren], ratings);
         candies = GiveOutCandiesDown(candies, ratings);
@@ -54,14 +54,21 @@ class Solution
     {
         for (int index = ratings.Length -1; index > 0; index--)
         {
+            if (index == ratings.Length - 1) continue;
+
             int myCandies = candies[index];
             int myRating = ratings[index];
-            int beforeCandies = candies[index - 1];
-            int beforeRating = ratings[index - 1];
+            int beforeCandies = candies[index + 1];
+            int beforeRating = ratings[index + 1];
 
             if (myRating > beforeRating)
             {
-                candies[index] = beforeCandies +1;
+                candies[index] = beforeCandies + 1;
+            }
+
+            if (myRating < beforeRating)
+            {
+                candies[index + 1] = myCandies + 1;
             }
 
             if (candies[index] == 0) candies[index] = 1;
