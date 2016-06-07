@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>LetsReview</StartupObject>
+    <StartupObject>ATT.HackerRank.DictionariesAndMaps</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -53,6 +53,7 @@
     <Compile Include="BijectiveFunctions.cs" />
     <Compile Include="Candies.cs" />
     <Compile Include="DiagonalDifference.cs" />
+    <Compile Include="DictionariesAndMaps.cs" />
     <Compile Include="LetsReview.cs" />
     <Compile Include="Operators.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
