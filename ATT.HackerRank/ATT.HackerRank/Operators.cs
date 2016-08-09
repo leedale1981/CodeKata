@@ -23,7 +23,7 @@ namespace ATT.HackerRank
             double tip = mealCost * tipPercent / 100;
             double tax = mealCost * taxPercent / 100;
 
-            return  Convert.ToInt32(Math.Round(mealCost + tip + tax, 1));
+            return  Convert.ToInt32(Math.Round(mealCost + tip + tax));
         }
     }
 }
