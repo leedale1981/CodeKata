@@ -65,6 +65,7 @@
     <Compile Include="HashtableVsDictionary.cs" />
     <Compile Include="ClassContructorReference.cs" />
     <Compile Include="Delegates.cs" />
+    <Compile Include="OfficeGraphAPIExample.cs" />
     <Compile Include="PopulationModel.cs" />
     <Compile Include="ReverseArray.cs" />
     <Compile Include="ReverseString.cs" />
