@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
-  <Module Name="Scripts" Url="Style Library">
-    <File Path="Scripts\att.sharepoint.examples.jslink.js" Url="Scripts/att.sharepoint.examples.jslink.js" ReplaceContent="TRUE" Type="GhostableInLibrary" />
-  </Module>
-</Elements>

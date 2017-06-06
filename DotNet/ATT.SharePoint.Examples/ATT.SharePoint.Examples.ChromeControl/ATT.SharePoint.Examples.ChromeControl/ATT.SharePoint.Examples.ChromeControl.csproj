@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{46546963-D3B0-4CAA-B55B-A5CB423FF690}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ATT.SharePoint.Examples.ChromeControl</RootNamespace>
+    <AssemblyName>ATT.SharePoint.Examples.ChromeControl</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <MinimumVisualStudioVersion>11.0</MinimumVisualStudioVersion>
+    <MinimumOfficeToolsVersion>11.1</MinimumOfficeToolsVersion>
+    <IncludeAssemblyInPackage>False</IncludeAssemblyInPackage>
+    <ProjectMode>SharePointApp</ProjectMode>
+    <AppFeaturePartId>{52a8e2e0-673b-48b4-bcf7-339221c0af65}</AppFeaturePartId>
+    <WspPartId>{20cc0b20-f376-498b-b483-457035345787}</WspPartId>
+    <WorkflowPartId>{38923499-4c39-4b06-96e8-125ab2276357}</WorkflowPartId>
+    <CspkgPartId>{0495dbbd-4231-4c1f-b353-b158a180701b}</CspkgPartId>
+    <SqlPackagePartId>{50b94471-194c-4139-8bca-a199b6108e59}</SqlPackagePartId>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Lists\VideoGameCollection\Elements.xml" />
+    <Content Include="Lists\VideoGameCollection\Schema.xml" />
+    <Content Include="Lists\VideoGameCollection\VideoGameCollectionInstance\Elements.xml" />
+    <Content Include="SiteColumns\Format\Elements.xml" />
+    <Content Include="SiteColumns\Genre\Elements.xml" />
+    <Content Include="ContentTypes\VideoGame\Elements.xml" />
+    <None Include="Lists\VideoGameCollection\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b6a5f946-ea99-4305-8e99-ff0e1e468212}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\VideoGameCollection\VideoGameCollectionInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f6e22a3a-e1f6-4de4-8353-8ae9de20809a}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteColumns\Format\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{aff937dd-3b71-4910-b19a-5e380f1fd929}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteColumns\Genre\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{5ae8db06-cd36-4285-a784-417337ee11d1}</SharePointProjectItemId>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Pages\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{07c512e5-77f2-4013-96a5-1593816b364b}</SharePointProjectItemId>
+    </None>
+    <Content Include="Pages\Elements.xml" />
+    <None Include="ContentTypes\VideoGame\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a62fc0c9-4c13-4ba0-8f90-1d39b2adde85}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\jquery-1.9.1.min.map" />
+    <None Include="Scripts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{50b94471-194c-4139-8bca-a199b6108e59}</SharePointProjectItemId>
+    </None>
+    <Content Include="Pages\home.html" />
+    <Content Include="Scripts\Elements.xml" />
+    <Content Include="Scripts\App.js" />
+    <Content Include="Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="Scripts\jquery-1.9.1.js" />
+    <Content Include="Scripts\jquery-1.9.1.min.js" />
+    <Content Include="Scripts\sp.ui.controls.js" />
+    <Content Include="Scripts\_references.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{3a3e76c0-dd64-48d2-8325-97b16451c269}</SharePointProjectItemId>
+    </None>
+    <Content Include="Content\Elements.xml" />
+    <Content Include="Content\App.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\AppIcon.png">
+      <OpcRelationship>manifest-icon</OpcRelationship>
+    </Content>
+    <Content Include="Images\Elements.xml" />
+    <None Include="Images\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{124ac13d-1513-4b51-8a5a-13a0c2482536}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Package\Package.package">
+      <PackageId>{64a5ed9a-6dd1-4c1f-bdaa-aea704b7777c}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="Features\ATT.SharePoint.Examples.ChromeControl\ATT.SharePoint.Examples.ChromeControl.feature">
+      <FeatureId>{883185da-398d-4fd9-901f-32aec5dd2705}</FeatureId>
+    </None>
+    <None Include="Features\ATT.SharePoint.Examples.ChromeControl\ATT.SharePoint.Examples.ChromeControl.Template.xml">
+      <DependentUpon>ATT.SharePoint.Examples.ChromeControl.feature</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <AppManifestFile Include="AppManifest.xml">
+      <SubType>Designer</SubType>
+    </AppManifestFile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

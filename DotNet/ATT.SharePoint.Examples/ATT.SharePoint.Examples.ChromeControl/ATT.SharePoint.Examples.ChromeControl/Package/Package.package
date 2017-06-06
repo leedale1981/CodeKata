@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="64a5ed9a-6dd1-4c1f-bdaa-aea704b7777c" 
+        solutionId="64a5ed9a-6dd1-4c1f-bdaa-aea704b7777c" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="ATT.SharePoint.Examples.ChromeControl"
+        sharePointProductVersion="15.0">
+  <features>
+        <featureReference itemId="883185da-398d-4fd9-901f-32aec5dd2705" />
+  </features>
+</package>
